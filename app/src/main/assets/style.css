@@ -1,0 +1,142 @@
+﻿@media screen and (max-width: 990px) {
+html{overflow-y:unset !important;min-width:100% !important}
+#main .els-box.els-content p > span > img, #main .els-box.els-content p > span > span > img{width:100%}
+#header #logo{display:none}
+#header{height:0px}
+#footer{display:none}
+#container{width:100%;max-width:1000px}
+.user-guest-dashboard .hgll-colwrap-inner{right:0}
+.user-guest-dashboard .hgll-col1{width:100%;left:unset;float:none}
+.user-guest-dashboard .hgll-col2{width:100%;left:unset;float:none;margin:15px 0 0 0}
+#main > .els-body{margin-left:15px;margin-right:15px;width:auto !important}
+#main .els-box.els-content a{word-wrap:break-word}
+p, span{word-wrap:break-word}
+#main .tab-bar .wrapper{padding-left:0px;overflow-x:scroll;}
+#main .els-box.els-content{margin-top:0px}
+.login-inline-form{right:0;min-width:100%}
+.login-inline-form .ui-portlet{width:auto;margin:0 15px}
+.infoblock-news .ui-portlet-content{overflow-y:auto}
+.user-enduser-dashboard .hgll-colwrap-middle{right:0}
+.user-enduser-dashboard .hgll-colwrap-inner{right:0}
+.user-enduser-dashboard .hgll-col1{width:100%;left:0}
+.user-enduser-dashboard .hgll-col2{width:100%;left:0;margin:20px 0 0 0}
+.user-enduser-dashboard .hgll-col3{width:100%;left:0;margin:20px 0 0 0}
+.hm-es-event-toolbar{left:0px !important}
+#header #user-block{margin:0 12px}
+.hm-es-event-toolbar{display:none}
+#main .tab-bar ul{max-width:100%;overflow:unset}
+#header #user-block h3.name{display:inline !important}
+#header a{text-decoration:none}
+a.help-activator{display:none}
+fieldset dl{margin:0 0 0 5px}
+.extended-page .hgll-col1wrap{float:unset;left:unset}
+.extended-page .hgll-col1{margin-left:unset;margin-right:unset;width:100%}
+.extended-page .hgll-col2{float:unset;left:unset;width:100%;margin:15px 0 0 0}
+.extended-page .hgll-colwrap-inner{float:unset;width:100%;right:unset;margin-left:unset}
+.pcard_inline{width:100%;padding:0}
+.extended-page .hgll-col1wrap{width:100%}
+.accordion-expander{display:none}
+.pcard .ui-dialog-content-wrapper{border:1px solid rgb(215, 216, 219);border-radius:unset}
+.pcard.ui-dialog, .pcard_inline{border:none;-moz-border-radius:unset;border-radius:unset;box-shadow:none;-moz-box-shadow:none}
+.pcard.ui-dialog .ui-dialog-content{padding-left:15px;padding-right:15px}
+.pcard .card_photo{float:unset;width:50%;margin:10px auto;text-align:center}
+.pcard .card_photo img{border:none;border-radius:50%;width:100%}
+.pcard .card_content{padding-left:0}
+.card_content > div{display:block;text-align:center;float:left;margin:0 auto;width:100%}
+.pcard .card_content h6{margin-top:1em;margin-bottom:0.5em;line-height:unset}
+table.card{margin:0 0 10px 0}
+.page-context-accordion h3.ui-accordion-header > .ui-icon,.page-context-accordion h3.ui-accordion-header > .ui-icon-triangle-1-s{display:none}
+.ui-accordion-content-wrapper{border-bottom:1px solid rgb(215, 216, 219);border-left:1px solid rgb(215, 216, 219);border-right:1px solid rgb(215, 216, 219)}
+.page-context-accordion .ui-accordion-content{border:none}
+.els-inputfile-infoblock{margin-top:5px}
+#interview{outline:none;width:100%;padding:10px 0;border-radius:4px;color:#fff;font-size:12px;background-color:#0067a4;background-image:none}
+#interview:hover, #interview:focus{background-color:#005587}
+#ui-dialog-title-dialog-empty-form{font-size:12px}
+#dialog-empty-form{font-size:12px;height:auto !important}
+.ui-dialog .ui-dialog-titlebar{border:none !important;background-color:#0067a4}
+.ui-dialog .ui-dialog-buttonpane{display:none}
+.ui-dialog{height:auto !important;position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);zoom:98%}
+.pcard.ui-dialog{position:relative !important;zoom:unset !important;top:unset !important;left:unset !important;height:unset !important;transform:none !important}
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus{border:none !important}
+.ui-dialog .ui-icon{background-image:none !important;right:0px !important;display:block;position:absolute;cursor:pointer;width:16px;height:16px}
+.ui-dialog .ui-icon:before{content: "";position:absolute;display:block;margin:auto;left:0;right:0;top:0;bottom:0;width:16px;height:0;border-top:1px solid #fff;transform:rotate(45deg);transform-origin:center}
+.ui-dialog .ui-icon:after{content:"";position:absolute;display:block;margin:auto;left:0;right:0;top:0;bottom:0;width:16px;height:0;border-top:1px solid #fff;transform:rotate(-45deg);transform-origin:center}
+#dialog-empty-form > p > span{margin:0 !important}
+.ui-dialog{border:none !important;border-radius:4px}
+.ui-dialog .ui-dialog-buttonpane{border:none}
+.els-masked-inputfile{outline:none;background:#7a8faf;color:#fff;width:100%;box-sizing:border-box;font-size:12px;padding:8px 0;border-radius:4px}
+.els-masked-inputfile:hover, .els-masked-inputfile:focus{background:#647690}
+.page-context-accordion .ui-accordion-content ul li:first-child{border:none}
+.page-context-accordion h3.ui-accordion-header.ui-state-active a{border:1px solid #bac238}
+.page-context-accordion h3.ui-accordion-header.ui-state-active{background-color:transparent;border:none}
+.defaultSkin .mceStatusbar a.mceResize{display:none}
+.page-context-accordion{border:none;box-shadow:none}
+#main .els-box.els-content{margin-top:0}
+.ui-dialog .ui-dialog-content{border:none !important}
+.page-context-accordion .ui-accordion-content ul{margin:0}
+.page-context-accordion .ui-accordion-content ul ul{margin:0}
+.page-context-accordion .ui-accordion-content ul.navigation li{padding:0 0 0 15px}
+.page-context-accordion .ui-accordion-content ul.navigation li:nth-child(3n){padding:10px 0 0 15px}
+.page-context-accordion .ui-accordion-content ul.navigation li ul li{padding:0 !important}
+.page-context-accordion .ui-accordion-content ul.navigation li:first-child{border:none}
+.page-context-accordion .ui-accordion-content ul li{border-bottom:none;border-top:1px solid rgb(215, 216, 219)}
+.page-context-accordion h3.ui-accordion-header .header{padding:0.8em 15px}
+.page-context-accordion .ui-accordion-content a{text-decoration:none}
+.breadcrumbs{display:none}
+table td.lesson_bg{display:none}
+.lesson{overflow-x:auto;border-top:1px solid #D6DCE0}
+.lesson_block{border:none !important}
+.progress_title{display:none}
+.hm-subject-list-item-description-lesson-free .hm-subject-list-item-description-lesson-date{display:none}
+table td.showscore{padding-right:20px}
+.ui-tabs.hm-subject-list-item-description .ui-tabs-panel{width:550px}
+.test_mime_0{width:100%;height:18px;background-size:16px}
+.test_item_5{width:100%;height:14px;background-size:15px}
+.interface-editor-enabler{display:none}
+/* div._grid_gridswitcher{display:none} */
+.area-form{position:unset;top:unset;right:unset;width:100%}
+.area-grid{padding-right:unset}
+#order .element input, #order .element select, #order .element textarea{width:100% !important;box-sizing:border-box}
+#order{width:100%}
+#area-description{margin-right:unset;padding:10px}
+.test_item_wrap{margin:15px 0 0 0}
+.test_item_wrap:first-child{margin:0}
+.news-list{float:unset}
+.news-middle{padding-top:unset}
+.material-preview{width:auto !important;position:relative !important;top:0 !important}
+.lesson_descript_td{width:auto}
+table td.ball-area{width:115px !important}
+table td.showscore{width:330px}
+.masonry{width:100% !important;height:auto !important}
+#lesson_block_active{border:none}
+.material-preview .content{padding:0 !important}
+.additional-tbl table, .additional-tbl thead, .additional-tbl tbody, .additional-tbl th, .additional-tbl td, .additional-tbl tr {
+    display: block;
+  }
+  .additional-tbl thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .additional-tbl tr { border: 1px solid #ccc; }
+  .additional-tbl tbody tr td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 200px;
+    margin-left: 150px;
+  }
+.additional-tbl tbody tr td:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    white-space: pre-wrap;
+    margin-left: -150px;
+    text-align: left;
+}
+.additional-tbl tbody tr td:nth-of-type(1):before { content: "\0418 т о г о в ы й текущий рейтинг"; }
+.additional-tbl tbody tr td:nth-of-type(2):before { content: "Рубежный рейтинг"; }
+.additional-tbl tbody tr td:nth-of-type(3):before { content: "Оценка"; }
+.additional-tbl tbody tr td:nth-of-type(4):before { content: "Итог";}
+}

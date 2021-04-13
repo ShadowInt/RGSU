@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Мобильное СДО</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="stop">Stop</string>
+    <string name="history">History</string>
+    <string name="go">Go</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="download">Download</string>
+    <string name="question">Do you want to save this file?</string>
+    <string name="result">File saved: </string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="stopping">stopping</string>
+    <string name="favicon">favicon</string>
+    <string name="noconnection">Internet connection not available</string>
+    <string name="error">Error</string>
+    <string name="nosd">Storage not available</string>
+
+    <string-array name="shopping_item">
+        <item>По умолчанию</item>
+        <item>Тёмная тема</item>
+    </string-array>
+
+    <string-array name="themes_url">
+        <item>main</item>
+        <item>black_theme</item>
+    </string-array>
+
+    <string name="downloading_file">Скачивание файла</string>
+    <string name="download_failed">Ошибка скачивания</string>
+    <string name="subtitle_alert_exit">Вы действительно хотите выйти?</string>
+    <string name="title_alert_exit">Выход</string>
+    <string name="pos_button_alert_exit">Выйти</string>
+    <string name="button_close">Закрыть</string>
+    <string name="made_with_love">Made with\u0020\u2764 by <b>Sergey Venisyatsky</b></string>
+    <string name="alert_check_version_subtitle">Проверка обновлений</string>
+    <string name="download_last_version">Обновить</string>
+    <string name="subtitle_alert_error_version">Новая версия приложения доступна для скачивания</string>
+    <string name="title_alert_error_version">Обновление</string>
+    <string name="donate_fab">Поддержать автора</string>
+    <string name="change_theme">Сменить тему</string>
+    <string name="ad_loading">Идёт загрузка рекламы</string>
+    <string name="title_alert_error">Ошибка</string>
+    <string name="subtitle_alert_error">Объявление не загрузилось, попробуйте ещё раз</string>
+    <string name="reload">Обновить</string>
+    <string name="autologin_fab">Автологин</string>
+    <string name="your_sdo_login">Ваш логин в СДО</string>
+    <string name="your_sdo_password">Ваш пароль в СДО</string>
+    <string name="save_button">Сохранить</string>
+    <string name="auto_login">Автологин</string>
+    <string name="alert_on_autologin">Для активации этой функции нужно перезапустить приложение или обновить страницу входа в СДО.</string>
+    <string name="title_alert_warning">Предупреждение</string>
+    <string name="subtitle_alert_warning">В приложении нельзя решать рубежные тесты. В случае зависания или ошибки попытка не будет возвращена!</string>
+    <string name="try_again">Перезагрузить</string>
+    <string name="pos_button_download">Скачать</string>
+    <string name="button_turn_on">Включить</string>
+    <string name="button_turn_off">Отключить</string>
+</resources>

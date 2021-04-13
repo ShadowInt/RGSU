@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addresses_confirm_root_view"
+    tools:context=".MainActivity">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_to_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+            android:id="@+id/webView"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/textview_autologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="220dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="8dp"
+        android:elevation="5dp"
+        android:text="@string/autologin_fab"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="210dp"
+        android:layout_marginEnd="15dp"
+        android:clickable="true"
+        app:borderWidth="0dp"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorWhite"
+        android:src="@drawable/ic_login" />
+
+    <TextView
+        android:id="@+id/textview_donate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="155dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="8dp"
+        android:elevation="5dp"
+        android:text="@string/donate_fab"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/montserrat_regular"
+        android:visibility="gone" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="145dp"
+        android:layout_marginEnd="15dp"
+        android:clickable="true"
+        app:borderWidth="0dp"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorWhite"
+        android:src="@drawable/ad_text_green" />
+
+    <TextView
+        android:id="@+id/textview_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="8dp"
+        android:elevation="5dp"
+        android:text="@string/change_theme"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/montserrat_regular"
+        android:visibility="gone" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="15dp"
+        app:borderWidth="0dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorWhite"
+        android:src="@drawable/ic_palette_brown" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

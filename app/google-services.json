@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "8804027023",
+    "firebase_url": "https://rgsu-sdo.firebaseio.com",
+    "project_id": "rgsu-sdo",
+    "storage_bucket": "rgsu-sdo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8804027023:android:c022fadd2dc8748935fefa",
+        "android_client_info": {
+          "package_name": "rgsu.sdo.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8804027023-j4ro5ie4rn7kimq36dj2cqqmmbn5kfbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmWdunT5jvl6eML38kKvsgxhMOhIIjj8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8804027023-j4ro5ie4rn7kimq36dj2cqqmmbn5kfbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

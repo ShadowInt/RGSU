@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00669B</color>
+    <color name="colorPrimaryDark">#00547F</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorEditTextHint">#808080</color>
+
+    <color name="gray">#444440</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="refresh_progress_1">#00669b</color>
+    <color name="refresh_progress_2">#00669b</color>
+    <color name="refresh_progress_3">#00669b</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackFAB">#CC000000</color>
+
+    <color name="colorPrimaryDark_BlackTheme">#222226</color>
+    <color name="refresh_progress_1_black">#6eabea</color>
+    <color name="refresh_progress_2_black">#6eabea</color>
+    <color name="refresh_progress_3_black">#6eabea</color>
+</resources>
